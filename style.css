@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;  
+    font-family: Arial, Helvetica, sans-serifs;
+   
+}
+body{
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    color: rgb(0, 255, 0);
+    height: 100vh;
+}
+#conversor{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin:10px;
+}
+h2{margin: 20px;}
+#conversor textarea{
+   
+    cursor: default;
+    border: black 1px solid;
+    resize: none;
+    margin: 10px;
+  
+    
+}
+.divBases{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
